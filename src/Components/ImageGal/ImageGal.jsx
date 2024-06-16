@@ -6,7 +6,6 @@ const ImageGal = () => {
         "/Images/pic4.jpeg",
         "/Images/pic5.jpeg",
         "/Images/pic6.jpeg",
-        "https://plus.unsplash.com/premium_photo-1682148388324-ae6ce01fbf18?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
         "/Images/pic8.jpeg",
         "/Images/pic9.jpeg",
         "/Images/pic10.jpeg",
@@ -14,12 +13,12 @@ const ImageGal = () => {
     ]
 
     return (
-        <div className="w-full sm:w-3/5 text-black flex flex-col justify-center my-7">
+        <div className="w-full sm:w-3/5 text-black flex flex-col justify-center mt-7 sm:my-7">
             <div className="flex flex-col justify-center gap-6 items-center sm:flex-row">
                 <h1 className="font-bold text-xl">My Leadership & Skills</h1>
                 <p className="w-3/5">As a President of the User Experience Professional Association's Pratt Chapter, I am leading a team of five. In the year 2018-19, we host more than 30 UX events including professional talks, discussion panels, design competitions(Creative Jam with Adobe XD), and skill-building workshops in collaboration with industry experts from companies like Google, IBM, and Adobe.</p>
             </div>
-            <div className="grid grid-cols-3 gap-2 my-5">
+            <div className="grid grid-cols-1 sm:grid-cols-3 gap-2 mt-5">
                 {Images.map((i, index) => (
                     <img key={index} src={i} alt={`Community event ${index + 1}`} className="h-48 w-full object-cover" />
                 ))}

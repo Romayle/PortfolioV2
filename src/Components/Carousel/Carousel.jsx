@@ -19,7 +19,7 @@ const Carousel = ({children: slides, mobile}) => {
                 <div className={`flex transition-transform ease-out duration-500 images ${mobile ? "w-[200px]" : ""}`} style={{ transform: `translateX(-${curr * 100}%)`}}>{slides}</div>
             </div>
             
-            <div className='absolute -inset-10 flex items-center justify-between p-5'>    
+            <div className='absolute -inset-10 flex items-center justify-between'>    
                 <button onClick={prev} className='bg-white rounded-full p-1'>
                     <Icon icon="material-symbols:keyboard-arrow-left" width="16" height="16" color='black' />
                 </button>
