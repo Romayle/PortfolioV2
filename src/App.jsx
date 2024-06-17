@@ -14,12 +14,12 @@ function App() {
       <div className='w-full h-full bg-slate-50 flex flex-col items-center font-avernir'>
         <NavBar />
         <Routes>
-          <Route path="/" element={<Home />}/>
-          <Route path="/about" element={<About />}/>
-          <Route path="/projects/taskmanagement" element={<TaskManagement />}/>
-          <Route path="/projects/previousportfolio" element={<PreviousPortfolio />}/>
-          <Route path="/projects/mobileapp" element={<MobileApp />}/>
-          <Route path="/projects/gallery" element={<Gallery />}/>
+          <Route path="/PortfolioV2/" element={<Home />}/>
+          <Route path="/PortfolioV2/about" element={<About />}/>
+          <Route path="/PortfolioV2/projects/taskmanagement" element={<TaskManagement />}/>
+          <Route path="/PortfolioV2/projects/previousportfolio" element={<PreviousPortfolio />}/>
+          <Route path="/PortfolioV2/projects/mobileapp" element={<MobileApp />}/>
+          <Route path="/PortfolioV2/projects/gallery" element={<Gallery />}/>
         </Routes>
       </div>
     </Router>
