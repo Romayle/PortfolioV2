@@ -1,5 +1,5 @@
 import { useState, useEffect } from "react";
-import { useLocation } from "react-router-dom"; // Assuming you're using react-router for routing
+import { Link, useLocation } from "react-router-dom"; // Assuming you're using react-router for routing
 
 const NavBar = () => {
     const location = useLocation();
@@ -15,17 +15,17 @@ const NavBar = () => {
                 <a className="pt-2 text-black font-bold text-xl" href={'/PortfolioV2/'}>ROMAYLE DHARMASENA</a>
                 <nav className="-mb-px flex gap-6" aria-label="Tabs">
                     <a
-                        href="/PortfolioV2/"
+
                         className={`shrink-0 border-t-4 pt-2 ${activeTab === '/PortfolioV2/' ? 'border-black text-black' : 'border-transparent text-gray-500'} text-base font-medium hover:border-black hover:text-black`}
                         aria-current={activeTab === '/PortfolioV2/' ? 'page' : undefined}
                     >
-                        Home
+                        <Link to={"/PortfolioV2/"}>Home</Link>
                     </a>
                     <a
-                        href="/PortfolioV2/about"
+                        // href="/PortfolioV2/about"
                         className={`shrink-0 border-t-4 pt-2 ${activeTab === '/PortfolioV2/about' ? 'border-black text-black' : 'border-transparent text-gray-500'} text-base font-medium hover:border-black hover:text-black`}
                     >
-                        About
+                        <Link to={"/PortfolioV2/about"}>About</Link> 
                     </a>
                 </nav>
             </div>
