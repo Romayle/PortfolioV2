@@ -3,11 +3,9 @@ import IconSet from './IconSet';
 
 const SkillList = () => {
     return ( 
-        <div className="bg-white w-full text-black flex justify-center py-10">
-            <div className="w-3/5 flex flex-col justify-center gap-5">
+        <div className="bg-white w-full text-black py-10">
+            <div className="sm:w-3/5 flex flex-col justify-around gap-10 mx-auto sm:flex-row">
                 
-                <div className='flex flex-col justify-around sm:flex-row'>
-
                     <div className='flex flex-col items-center'>
                         <div className='flex items-center gap-2 mb-10'>
                             <div className='bg-cyan-700 rounded-full p-2'>
@@ -45,9 +43,6 @@ const SkillList = () => {
                             <IconSet Icon={<Icon icon="arcticons:sqlite-editor" width="48" height="48" color='blue' />} Name={'SQL'}/>
                         </div>
                     </div>
-
-                </div>
-
             </div>
         </div>
     );

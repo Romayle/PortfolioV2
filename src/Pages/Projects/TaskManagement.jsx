@@ -4,9 +4,9 @@ import { Icon } from '@iconify/react';
 
 const TaskManagement = () => {
     const slides = [
-        "/CarouselPics/TaskSystem/Home.png",
-        "/CarouselPics/TaskSystem/Delete.png",
-        "/CarouselPics/TaskSystem/Add.png"
+        "https://lh3.googleusercontent.com/drive-viewer/AKGpihbEkx7xsXGBuo-2hj02Y8CVfaKLoHWN7moBa2Z9IcxOdPYhd2Lu3lar0EkLb0F0p3qKhmzOHQcOnssNR8UlscOqe2JhN8bd774=s1600-rw-v1",
+        "https://lh3.googleusercontent.com/drive-viewer/AKGpihaPtSPAQ6gPjLR10e95LEAqwP0so6Q6K38hvC6J8JmcWg1TRzjpPGywmCC7yOTPfNUFW28tLa6SQqbMWON9sXKyNH8qg_wkOzs=s1600-rw-v1",
+        "https://lh3.googleusercontent.com/drive-viewer/AKGpihZAo_kTiqQ_WcU6gnfFsLv_pmvR3wSzDRI74iOTv783uIh8lPhFp4vqtWqxV9VOvF8EMU-JTqv22OAeAiCyjqVu-4v4VXKwfQ=s1600-rw-v1"
     ];
 
     const skills = [
@@ -23,7 +23,7 @@ const TaskManagement = () => {
                 title={"TASK MANAGEMENT SYSTEM"} 
                 slides={slides} 
                 description={"Developed a comprehensive Task Management Application utilizing the MERN stack (MongoDB, Express, React, and Node.js). This project highlights my proficiency in modern web development technologies through the creation of a dynamic and responsive user interface, robust server-side logic, and efficient data management."}
-                link={"/WebPics/Task.jpg"}
+                link={"https://lh3.googleusercontent.com/drive-viewer/AKGpihZL-pod4bsqHK2Ysu0CgaqQZehRV8-hG4I5mPTZSneLvGAOQFjo0mVyIPExluqMUoT9HP8qZ-Enby6m_pePNmHHvnj2ZCKmygM=s1600-rw-v1"}
                 skillSet={skills}
             />
         </div>

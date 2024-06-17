@@ -2,11 +2,11 @@ import Carousel from "../Carousel/Carousel";
 
 const ProjectLayout = ({title, slides, description, link, skillSet, mobile}) => {
     return ( 
-        <div className="w-full h-full text-black flex flex-col">
+        <div className="w-full h-full text-black">
 
-            <div className="bg-cover flex justify-center p-3 sm:p-16" style={{backgroundImage: `url(${link})`, backgroundPosition: 'center bottom'}}>
-                <div className={"sm:w-4/5 flex flex-col justify-between sm:justify-evenly items-center gap-12 h-full sm:flex-row"}>
-                    <h1 className="text-3xl sm:text-4xl text-white font-semibold text-center">{title}</h1>
+            <div className="bg-cover" style={{backgroundImage: `url(${link})`}}>
+                <div className={`mx-auto pt-3 flex flex-col justify-center items-center sm:justify-evenly sm:flex-row ${!mobile ? "sm:w-9/10" : "w-3/5"}`}>
+                    <h1 className="w-4/5 text-3xl text-white font-semibold text-center sm:w-1/4 sm:text-4xl">{title}</h1>
                     <Carousel mobile={mobile}>
                         {slides.map((p) => (
                             <img className={""} src={p} />
@@ -15,8 +15,8 @@ const ProjectLayout = ({title, slides, description, link, skillSet, mobile}) => 
                 </div>
             </div>
 
-            <div className="bg-white flex-grow sm:w-3/5 justify-center sm:mx-auto flex">
-                <div className="w-full p-12 gap-10 flex flex-col">
+            <div className="bg-white sm:w-3/5 sm:mx-auto">
+                <div className="w-full gap-8 flex flex-col p-8 sm:p-12">
                     <div>
                         <h1 className="text-pink-600">Project Title</h1>
                         <p className="text-2xl">{title}</p>

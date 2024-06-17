@@ -14,12 +14,12 @@ const Carousel = ({children: slides, mobile}) => {
     }, [curr, 3000]);
 
     return (
-        <div className="relative rounded-xl p-3">
+        <div className={`relative rounded-xl p-6 ${!mobile ? "w-4/5 sm:w-3/5" : ""}`}>
             <div className={`overflow-hidden ${mobile ? "rounded-[26px]" : "rounded-xl"}`}>
                 <div className={`flex transition-transform ease-out duration-500 images ${mobile ? "w-[200px]" : ""}`} style={{ transform: `translateX(-${curr * 100}%)`}}>{slides}</div>
             </div>
             
-            <div className='absolute -inset-10 flex items-center justify-between'>    
+            <div className='absolute -inset-2 flex items-center justify-between'>    
                 <button onClick={prev} className='bg-white rounded-full p-1'>
                     <Icon icon="material-symbols:keyboard-arrow-left" width="16" height="16" color='black' />
                 </button>
