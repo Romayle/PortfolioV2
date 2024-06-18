@@ -1,6 +1,8 @@
+import { Link } from "react-router-dom";
 import Carousel from "../Carousel/Carousel";
+import { Icon } from '@iconify/react';
 
-const ProjectLayout = ({title, slides, description, link, skillSet, mobile}) => {
+const ProjectLayout = ({title, slides, description, link, skillSet, mobile, gitLink}) => {
     return ( 
         <div className="w-full h-full text-black">
 
@@ -33,6 +35,14 @@ const ProjectLayout = ({title, slides, description, link, skillSet, mobile}) => 
                             {skillSet.map((icon, index) => (
                                 <div key={index}>{icon}</div>
                             ))}
+                        </div>
+                    </div>
+
+                    <div>
+                        <h1 className="text-pink-600 mb-2">Github Link</h1>
+                        <div className="flex gap-2 items-center">
+                            <Icon icon="hugeicons:github" width="32" height="32"  style={{color: "black"}} />
+                            <p><Link to={gitLink}>Click Me</Link></p>
                         </div>
                     </div>
 

@@ -23,6 +23,7 @@ const PreviousPortfolio = () => {
                 description={"I developed a professional web portfolio using React and Tailwind CSS to showcase my skills, projects, and experiences. The portfolio features a clean, responsive design optimized for both desktop and mobile devices, ensuring an excellent user experience across various screen sizes."}
                 link={"https://lh3.googleusercontent.com/drive-viewer/AKGpihbOwPU00WaMp0WsV9gsKl-Fn0fdlp2voiORleU5A_-qaWI1LvrjO5vOdBhpakyCEQppyH90_JMoDlp3w_xjVhgHMj_IaGgdcRg=s1600-rw-v1"}
                 skillSet={skills}
+                gitLink={"https://romayle.github.io/web-portfolio/"}
             />
         </div>
      );

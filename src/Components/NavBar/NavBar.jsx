@@ -12,7 +12,7 @@ const NavBar = () => {
     return (
         <div className="sticky top-0 w-full bg-white z-10 flex justify-center">
             <div className="w-full sm:w-3/5 flex justify-between p-4">
-                <a className="pt-2 text-black font-bold text-xl" href={'/PortfolioV2/'}>ROMAYLE DHARMASENA</a>
+                <a className="pt-3 text-black font-bold text-base sm:text-xl sm:p-2" href={'/PortfolioV2/'}>ROMAYLE DHARMASENA</a>
                 <nav className="-mb-px flex gap-6" aria-label="Tabs">
                     <a
 
@@ -22,7 +22,6 @@ const NavBar = () => {
                         <Link to={"/PortfolioV2/"}>Home</Link>
                     </a>
                     <a
-                        // href="/PortfolioV2/about"
                         className={`shrink-0 border-t-4 pt-2 ${activeTab === '/PortfolioV2/about' ? 'border-black text-black' : 'border-transparent text-gray-500'} text-base font-medium hover:border-black hover:text-black`}
                     >
                         <Link to={"/PortfolioV2/about"}>About</Link> 

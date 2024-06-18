@@ -28,6 +28,7 @@ const Gallery = () => {
                 description={"I developed a professional web portfolio using React and Tailwind CSS to showcase my skills, projects, and experiences. The portfolio features a clean, responsive design optimized for both desktop and mobile devices, ensuring an excellent user experience across various screen sizes."}
                 link={"https://lh3.googleusercontent.com/drive-viewer/AKGpihZea2-7sge-tCEzLSkdn6gY_k6EywEAx4sb6bb85ODxUqGtNBeCb0OqSYRE88SMqhRC0x-hhCDp8YKuLt1WemA3o1FWIh4Saw=s1600-rw-v1"}
                 skillSet={skills}
+                gitLink={"https://github.com/Romayle/gallery-web-page"}
             />
         </div>
      );

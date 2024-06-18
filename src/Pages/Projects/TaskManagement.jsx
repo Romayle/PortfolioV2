@@ -25,6 +25,7 @@ const TaskManagement = () => {
                 description={"Developed a comprehensive Task Management Application utilizing the MERN stack (MongoDB, Express, React, and Node.js). This project highlights my proficiency in modern web development technologies through the creation of a dynamic and responsive user interface, robust server-side logic, and efficient data management."}
                 link={"https://lh3.googleusercontent.com/drive-viewer/AKGpihZL-pod4bsqHK2Ysu0CgaqQZehRV8-hG4I5mPTZSneLvGAOQFjo0mVyIPExluqMUoT9HP8qZ-Enby6m_pePNmHHvnj2ZCKmygM=s1600-rw-v1"}
                 skillSet={skills}
+                gitLink={"https://github.com/Romayle/Task-Management-System-MERN"}
             />
         </div>
     );

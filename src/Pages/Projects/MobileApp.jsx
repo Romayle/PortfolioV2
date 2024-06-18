@@ -27,6 +27,7 @@ const MobileApp = () => {
                 link={"https://lh3.googleusercontent.com/drive-viewer/AKGpihac2VjpJ6cYRKuVxpuppykL9FTGlPiO759Q1M0B4lVUqgBX8aY0edmh0NEZoCOrSXOrH2OnClN6Y3Zs-yJDqn0BiTvhjKByPg=s1600-rw-v1"}
                 skillSet={skills}
                 mobile={true}
+                gitLink={"https://github.com/Deshan0802/SDGP"}
             />
         </div>
      );
