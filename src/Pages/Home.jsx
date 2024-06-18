@@ -16,19 +16,19 @@ const Home = () => {
             <RightDisplayCard 
                 title={"TASK MANAGEMENT SYSTEM"}
                 description={"Developed a Task Management Application utilizing the MERN stack (MongoDB, Express, React, and Node.js). This project highlights my proficiency in modern web development technologies through the creation of a dynamic and responsive user interface, robust server-side logic, and efficient data management."}
-                link={"https://lh3.googleusercontent.com/drive-viewer/AKGpiha4njX66Sa0ThYovOxseGr609lbHGLrYX_DKVHK9MhPxV8wECzGqQWUkI4C8C72jkCh_qxOb6wMOBdesid-ZV5rKh8foNstwrk=s2560"}
+                link={"https://lh3.googleusercontent.com/drive-viewer/AKGpihYfC7m6-1I9HJqjsIR9wcrQOzKTjgLhEyK-mXmdaMkx1D7ja2tVjK2PqFutEX1f5h-Nj7NZrcf-RKoGEHIs2aAOP_SiGZ-ql5A=s1600-rw-v1"}
                 string={"taskmanagement"}
             />
             <LeftDisplayCard 
                 title={"Gallery & Sitemap"}
                 description={"Explore a showcase of my creative skills in a dynamic online format. Navigate through a collection of my work, including website designs, coding projects and creative endeavors."}
-                link={"https://lh3.googleusercontent.com/drive-viewer/AKGpihYoXz9JK6pKsgvHSzumfNJ6d67b2mpLdujWp-wE01g38-LQEadjb6q2gv_hB72afm4A0jIocsMJq5Q2Kg1hPxWdgZrXYLSmNA=s2560"}
+                link={"https://lh3.googleusercontent.com/drive-viewer/AKGpiha0b9OAUuqruLHsEsPc-q6EQ7vu9fTqH7h6-MQ7MVZNrNWjtgL8gTCaKLPKT30UDeePCUhwFCSSNvfHVgMdDVFZcAqfVl9jmKY=s1600-rw-v1"}
                 string={"gallery"}
             />
             <RightDisplayCard
                 title={"PREVIOUS PORTFOLIO"}
                 description={"My previously developed web portfolio using React and Tailwind CSS showcasing my skills, projects, and experiences. The portfolio features a clean, responsive design optimized for both desktop and mobile devices, ensuring an excellent user experience across various screen sizes."}
-                link={"https://lh3.googleusercontent.com/drive-viewer/AKGpihYqBDgeRHJnb4wAdbrYUfgN9Pj6plfngAo1KaAM5OjyMt0hN12wQ4_Pl_C4GPB2fIsvr7VYsjCmgVIstYShy_1eeG9PVxWKDw=s2560"}
+                link={"https://lh3.googleusercontent.com/drive-viewer/AKGpihZFBHTPV5q7Mxp06oeVbaBPl702uHoSXUSy-pZovve-FWR0ohoryWhj7EP4eu5sNxjYxYzsQrWhA9vxCUPwdpcz0hsd49jj5SM=s1600-rw-v1"}
                 string={"previousportfolio"}
             />
         </div>
