@@ -11,7 +11,7 @@ const Details = () => {
                     <a href='https://www.linkedin.com/in/romayle-dharmasena-0ab19326a/'><Icon icon="ri:linkedin-fill" width="32" height="32" style={{color: "black"}} /></a>
                     <a href='https://github.com/Romayle'><Icon icon="mingcute:github-fill" width="32" height="32" style={{color: "black"}} /></a>
                 </div>
-                <button className="border-2 border-gray-500 py-2 px-4"><a href="RomayleDharmasenaCV.pdf" download='RomayleDharmasenaCV.pdf'>My Resume</a></button>
+                <button className="border-2 border-gray-500 py-2 px-4"><a href="CV/RomayleDharmasenaCV.pdf" download='/CV/RomayleDharmasenaCV.pdf'>My Resume</a></button>
             </div>
             <div className="w-full flex flex-col justify-center gap-4 sm:w-4/5">
                 <p className='w-full'>I have a strong passion for technology in the field of Software Development. My future ambitions and career goals is to become a full-stack / application developer with a particular focus on utilizing Machine Learning technology.</p>

@@ -14,9 +14,9 @@ const ImageGal = () => {
 
     return (
         <div className="w-full sm:w-3/5 text-black flex flex-col justify-center mt-7 sm:my-7">
-            <div className="flex flex-col justify-evenly gap-6 items-center sm:flex-row">
+            <div className="flex flex-col sm:justify-evenly gap-6 items-center sm:flex-row p-8">
                 <h1 className="font-bold text-xl">My Leadership & Skills</h1>
-                <div className="w-1/2">
+                <div className="w-full sm:w-1/2">
                     <p className="mb-2">During my college days, I developed significant leadership skills. In 2020, I served as a College Prefect, where I led peers and coordinated events, enhancing my organizational and interpersonal abilities.</p>
                     <p>I also played a key role in organizing college events, which improved my attention to detail, teamwork, and communication. Additionally, as the Treasurer for the College's Aeronautical Society, I managed finances, budget planning, organizing various workshops and seminars. This role honed my financial management skills and emphasized responsibility and integrity.</p>
                 </div>        
