@@ -20,7 +20,7 @@ const Home = () => {
                 string={"taskmanagement"}
             />
             <LeftDisplayCard 
-                title={"Gallery & Sitemap"}
+                title={"GALLERY & SITEMAP"}
                 description={"Explore a showcase of my creative skills in a dynamic online format. Navigate through a collection of my work, including website designs, coding projects and creative endeavors."}
                 link={"https://lh3.googleusercontent.com/drive-viewer/AKGpiha0b9OAUuqruLHsEsPc-q6EQ7vu9fTqH7h6-MQ7MVZNrNWjtgL8gTCaKLPKT30UDeePCUhwFCSSNvfHVgMdDVFZcAqfVl9jmKY=s1600-rw-v1"}
                 string={"gallery"}
@@ -30,6 +30,12 @@ const Home = () => {
                 description={"My previously developed web portfolio using React and Tailwind CSS showcasing my skills, projects, and experiences. The portfolio features a clean, responsive design optimized for both desktop and mobile devices, ensuring an excellent user experience across various screen sizes."}
                 link={"https://lh3.googleusercontent.com/drive-viewer/AKGpihZFBHTPV5q7Mxp06oeVbaBPl702uHoSXUSy-pZovve-FWR0ohoryWhj7EP4eu5sNxjYxYzsQrWhA9vxCUPwdpcz0hsd49jj5SM=s1600-rw-v1"}
                 string={"previousportfolio"}
+            />
+            <LeftDisplayCard 
+                title={"SHOPPING CART SYSTEM"}
+                description={"Created a Java Swing-based Shopping Cart Management System facilitating easy browsing, item selection. Features include inventory management, total calculation, and seamless user interface, demonstrating expertise in Java programming and user-centric design."}
+                link={"https://lh3.googleusercontent.com/drive-viewer/AKGpihYgYUVFv3Gug8g03AM2Hw9G0Jde3VIHWTnWYrWEpuhi-SIVCEJKAuAbCim7KY_N-hcHyUid-EF1sFzbzYJSux-Gw1Xf0HHWkkQ=s1600-rw-v1"}
+                string={"shoppingcart"}
             />
         </div>
     );

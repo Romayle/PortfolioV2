@@ -7,6 +7,7 @@ import { BrowserRouter as Router, Route, Routes } from 'react-router-dom'
 import PreviousPortfolio from './Pages/Projects/PreviousPortfolio'
 import MobileApp from './Pages/Projects/MobileApp'
 import Gallery from './Pages/Projects/Gallery'
+import ShoppingCart from './Pages/Projects/ShoppingCart'
 
 function App() {
   return (
@@ -20,6 +21,7 @@ function App() {
           <Route path="/PortfolioV2/projects/previousportfolio" element={<PreviousPortfolio />}/>
           <Route path="/PortfolioV2/projects/mobileapp" element={<MobileApp />}/>
           <Route path="/PortfolioV2/projects/gallery" element={<Gallery />}/>
+          <Route path="/PortfolioV2/projects/shoppingcart" element={<ShoppingCart />}/>
         </Routes>
       </div>
     </Router>
