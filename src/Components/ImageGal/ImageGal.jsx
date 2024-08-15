@@ -1,15 +1,15 @@
 const ImageGal = () => {
     const Images = [
-        "https://lh3.googleusercontent.com/drive-viewer/AKGpihYHaRuVtC-trzb3IM7A1qyQQlN6U0OoJD4B3QDB6nm4sKTUDlzyPpaniGaknNV11HEstp0wj2BGLZ8szypOVNgFhplBkv7seg0=s1600-rw-v1",
-        "https://lh3.googleusercontent.com/drive-viewer/AKGpiha3yPvWQ3Qe1WTs2Fy3ztRpGYH30Z8dZHjz4Z6epbGYGY2j0wbK84kuCyCk3f2nO0VokuXk11sDyZNKtuN45tL62mLUwVPjyEU=s1600-rw-v1",
-        "https://lh3.googleusercontent.com/drive-viewer/AKGpihZuLYRih5n0C-kuKwt0juQHRl4QbC3hZ6TF5ILCSEGNECyqXwQKC16_IgsJ3RqiqpAGgFmXjz4Lin8Lifg86q2bQb5Kth1x1Q=s1600-rw-v1",
-        "https://lh3.googleusercontent.com/drive-viewer/AKGpihYCcc4UJmLBpl_SI8qQdDemvk7nkRantNEm-uoeq-AlLSzNJsKceBngBo7Gd8SAzcsGizkm8dEHsnFdEfNE9K37yyJlXg-efw=s1600-rw-v1",
-        "https://lh3.googleusercontent.com/drive-viewer/AKGpihYmlRLz49QrczshGjB5i9X-ccRFZk7Fia5tFNCcLgEwpMkBPukW2hOcdBdiRflqDOo4wQE-xwtT0m4dWRWvf8-yX6IXZQOaphw=s1600-rw-v1",
-        "https://lh3.googleusercontent.com/drive-viewer/AKGpihYkafCWWDve5Kwy26cSG-TcXOe310y34OOCarPhRSJY0jsduKkYb6h-wJ8N2hSxT99HP2ubuFIDwU4rrQ3PpZ_IPP4h3X52ow=s1600-rw-v1",
-        "https://lh3.googleusercontent.com/drive-viewer/AKGpihbMJdEp5ch5FAibNhVQ7VltQjfZkq_SmuFFr5VEk6JNxBm7i0Z9lPaLwWfcFtgZ6tm2qSFJM22tMGRjsWvIIrWLvN2cjKXYDE8=s1600-rw-v1",
-        "https://lh3.googleusercontent.com/drive-viewer/AKGpihaKslCm-yQQ7obR9zHT0v5gigSu4bh0SEvcma4gemb6M2IW2mbXjvJ72I5uZYR4CRx92SQUcatsxDW6vi8yHudlAmuYQ9lRcY4=s1600-rw-v1",
-        "https://lh3.googleusercontent.com/drive-viewer/AKGpihYDjOFRiiCJh4CH_vs0__SHyac5BWjkvKL9QpTYgm9qyzKNOiqywqxi9PMwy9er6H4ya-myJR3ghBDwCeIoxOFnE93hP1OWBOA=s1600-rw-v1",
-        "https://lh3.googleusercontent.com/drive-viewer/AKGpiham5gf-kt_SNpdbtaUFrbFayYD7K1LrBzaswy79jFU_6if8pg_idR5gZdePYARztjF3mWdhAaGAmVEEBxVdJS7V_OP6b6XRvw=s1600-rw-v1"
+        "https://lh3.googleusercontent.com/d/17K94AtfSzwKNzBnmi_WA5MnOARE06AdS",
+        "https://lh3.googleusercontent.com/d/1SPdWdSmKx0QDwWmKlQCsQmxJ7oI2tMHf",
+        "https://lh3.googleusercontent.com/d/1ypc9808uZ0rD1QHTOxVfAbUu1-k-FTOQ",
+        "https://lh3.googleusercontent.com/d/1WuOoo94OLwyGVxyo9wOIfcvbes4yodoL",
+        "https://lh3.googleusercontent.com/d/1cmZJvtvJBweG6cpCdW8pURok0pvzmhCz",
+        "https://lh3.googleusercontent.com/d/1mUdDvPssSd7N38k12_865cih5FX5IXZN",
+        "https://lh3.googleusercontent.com/d/16xxYuon8oz3w2JreUtAZbErpk033oB6L",
+        "https://lh3.googleusercontent.com/d/1ZOtxncr_-ghwF7ke7gTVAitRgvR0Aou7",
+        "https://lh3.googleusercontent.com/d/148lvc70N5DkcxWhTpYn6BFo93HgWBEVy",
+        "https://lh3.googleusercontent.com/d/1EaZMGRHri1_XvCs1SuW_Co5FDjAFeos4"
     ]
 
     return (
