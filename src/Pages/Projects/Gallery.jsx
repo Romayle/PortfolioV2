@@ -4,14 +4,14 @@ import { Icon } from '@iconify/react';
 
 const Gallery = () => {
     const Slides = [
-        "https://lh3.googleusercontent.com/drive-viewer/AKGpihavyeWh4LKzndmZelBLMs05TCrM3nUx8DzW9MVBUnCIA54OnyDs-Lv7dH9AO3OJ651PHhGHiY9FKGX8Do7_7CM3pSFu56PhQco=s1600-rw-v1",
-        "https://lh3.googleusercontent.com/drive-viewer/AKGpiha-Gut89M_xvyFjb_9v3DbZmoLGxs_S0A-GLy95ZOZ_YlqN4tKzNPOrmrr7fbgciNFiFJVf4-N6511vR8EdW_JQvzQjYVHV09o=s1600-rw-v1",
-        "https://lh3.googleusercontent.com/drive-viewer/AKGpihbtkKJy-qn3MOR9P4_5ZTOHSVoTTLeE0aSxhvwGwb8iwvtuR_zbLv0vgCU74CDKRcEcNmLmKRgWbz2hlZ6g-_iBkKF7MmtfwiM=s1600-rw-v1",
-        "https://lh3.googleusercontent.com/drive-viewer/AKGpihaydSaM8jdbT5cg31WbNu4_JHaby4Nt8nqng_rapnCKRLqcJQ_hiFxOHqKVbLgD5cTpjnVewfuunJLz0zL-SFaAzDGfrC82RpU=s1600-rw-v1",
-        "https://lh3.googleusercontent.com/drive-viewer/AKGpihYQiM80vQ5TP8ZRT0ZbgIT8rCQINCBMu-XloWrQxagTkMTUL-dpJM6Jlx4PCHNcs8Uxmp2nQn5uFdc0DiIyqmszTg5So5A2hg=s1600-rw-v1",
-        "https://lh3.googleusercontent.com/drive-viewer/AKGpihbQ-xk1dBxTrQMbzJXK-60mBpxukQ5QebWmDxDzBrxXsjhdY706Yz96F0VIwz60p-__Zy6nto9tbCgmU4G9OgpihSb7oKl9qok=s1600-rw-v1",
-        "https://lh3.googleusercontent.com/drive-viewer/AKGpihbRWblwwTYWwxssHikYpb6eT1RItvHhdxp6GrqfiQ2TnUHWLQBkc4hZI5mT4fUIAOa8GkKjR7PnejXYO2bDXNRuUnypZow-6XU=s1600-rw-v1",
-        "https://lh3.googleusercontent.com/drive-viewer/AKGpihYlvow6EhgWoBHyV5EZyyMPA3FdNnEYMSNPVbRX9rz0EdOUCLrU8ROd0tRjO_KsIm2kzEmHeGP1-FWdOfQ-dHAsyAdWit9tmiE=s1600-rw-v1"
+        "https://lh3.googleusercontent.com/d/1fdZUHCamAacgyXKoZbIGsBLMOPP3GeGR",
+        "https://lh3.googleusercontent.com/d/1IQFHFktCuTpDQfekPCAizlPDizQukk3N",
+        "https://lh3.googleusercontent.com/d/1WUYlFjWF1wDlWSvXUfDTephi_sq3OY9o",
+        "https://lh3.googleusercontent.com/d/1s2N9RUsWce3xq5xFF32DcubcXQDGC2f-",
+        "https://lh3.googleusercontent.com/d/1g6kDCNAgcGG5wsb8Xl4Q_7_-cZWUboKw",
+        "https://lh3.googleusercontent.com/d/1EwiW6Eu5Y72Z78NVV4D3b5d5QQ6YwAzA",
+        "https://lh3.googleusercontent.com/d/1NZRDFXZtByh3SQB5oZLoCwj24Uyfl_ku",
+        "https://lh3.googleusercontent.com/d/1Pyum7mItq39IU4Zdp73Vxvar8NqBuwsn",
     ]
 
     const skills = [
@@ -26,7 +26,7 @@ const Gallery = () => {
                 title={"Gallery & SiteMap"} 
                 slides={Slides} 
                 description={"I developed a professional web portfolio using React and Tailwind CSS to showcase my skills, projects, and experiences. The portfolio features a clean, responsive design optimized for both desktop and mobile devices, ensuring an excellent user experience across various screen sizes."}
-                link={"https://lh3.googleusercontent.com/drive-viewer/AKGpihZea2-7sge-tCEzLSkdn6gY_k6EywEAx4sb6bb85ODxUqGtNBeCb0OqSYRE88SMqhRC0x-hhCDp8YKuLt1WemA3o1FWIh4Saw=s1600-rw-v1"}
+                link={"https://lh3.googleusercontent.com/d/1FwJZmQIm0Ra1CyD49RlE5I3xuFSsj1s7"}
                 skillSet={skills}
                 gitLink={"https://github.com/Romayle/gallery-web-page"}
             />
